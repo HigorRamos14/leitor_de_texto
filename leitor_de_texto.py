@@ -24,7 +24,7 @@ wind = QWidget()
 wind.resize(800, 600)
 wind.setStyleSheet('background-color:rgb(63, 63, 63)')
 
-bt = QPushButton('mudar texto', wind)
+bt = QPushButton('ler texto', wind)
 bt.setGeometry(100, 50, 100, 50)
 bt.setStyleSheet('background-color: rgb(79, 255, 25)')
 bt.clicked.connect(ler_texto)
